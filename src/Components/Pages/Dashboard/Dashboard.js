@@ -13,7 +13,7 @@ const Dashboard = () => {
         <Grid item xs={2}>
           <Sidebar />
         </Grid>
-        <Grid item xs={10} sx={{ height: "100vh", overflow: "auto" }}>
+        <Grid item xs={10}   sx={{ height: "100vh", overflow: "auto" }}>
           <Navbar />
           
           <Footer />
