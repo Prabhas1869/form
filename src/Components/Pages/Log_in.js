@@ -4,7 +4,6 @@ import { Button } from "@mui/material";
 import { validationSchema } from "../../Schemas/FormSchema";
 import GoogleLogin from "../../Components/GoogleLogin";
 import app from "../../Firebase/Firebase";
-// import { GoogleAuthProvider } from "firebase/auth";
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
 const provider = new GoogleAuthProvider();

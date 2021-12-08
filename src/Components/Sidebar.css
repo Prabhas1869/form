@@ -1,0 +1,40 @@
+side {
+    height: 100vh;
+    box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.08);
+    background-color: #f4eeeb;
+    padding: 0 20px;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    width: 20%;
+  
+
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+  
+ 
+  
+  .sidelinks {
+    margin: 1rem 0;
+  }
+  
+  .sidelinks a {
+    height: 45px;
+    text-decoration: none;
+    padding: 14px 0 14px 20px;
+    transition: 0.4s ease-in;
+  }
+  
+  .sidelinks a:hover {
+    color: #fff !important;
+    background: #66180d !important;
+  }
+  
+
+  .sidelinks_wrapper {
+    list-style: none;
+  }

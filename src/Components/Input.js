@@ -7,7 +7,7 @@ const Input = ({ icon, type, placeholder, name, value, onChange, onBlur }) => {
     setVisible(!visible);
   };
 
-  if (type === "password") {
+  if (type ===  "password") {
     return (
       <div className="input_Wrapper">
         <i className={`${icon} icon`} />
