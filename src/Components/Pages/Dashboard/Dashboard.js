@@ -15,7 +15,6 @@ const Dashboard = () => {
         </Grid>
         <Grid item xs={10}   sx={{ height: "100vh", overflow: "auto" }}>
           <Navbar />
-          
           <Footer />
         </Grid>
       </Grid>

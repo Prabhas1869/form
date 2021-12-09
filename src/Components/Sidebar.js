@@ -55,7 +55,7 @@ const Sidebar = () => {
           />
         </div>
         <Typography variant="h5" >
-          My App
+          Virdrobe
         </Typography>
       </Toolbar>
       <ul className="sidelinks_wrapper">

@@ -10,7 +10,7 @@ const Input = ({ icon, type, placeholder, name, value, onChange, onBlur }) => {
   if (type ===  "password") {
     return (
       <div className="input_Wrapper">
-        <i className={`${icon} icon`} />
+        <i className={`${icon} icon` } /> 
         <input
           className="input-field"
           name={name}
